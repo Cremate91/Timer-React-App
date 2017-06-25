@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "^4.7.0",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-google-login-component": "^0.7.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"

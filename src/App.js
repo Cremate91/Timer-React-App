@@ -3,6 +3,7 @@ import Nav from './components/nav/Nav';
 import Footer from './components/footer/Footer';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 class App extends Component {
   render() {
