@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import {GoogleLogin} from 'react-google-login-component';
+// import {GoogleLogin} from 'react-google-login-component';
 import logo from '../../assets/img/logo.svg';
 import './Nav.css';
 
 class Nav extends Component{
     
-    responseGoogle (googleUser) {
-        var id_token = googleUser.getAuthResponse().id_token;
-        console.log({accessToken: id_token});
-        //anything else you want to do(save to localStorage)...
-    }
+    // responseGoogle (googleUser) {
+    //     var id_token = googleUser.getAuthResponse().id_token;
+    //     console.log({accessToken: id_token});
+    //     //anything else you want to do(save to localStorage)...
+    // }
 
     render(){
         return (
@@ -33,12 +33,13 @@ class Nav extends Component{
                                 <a href="#kalender" className="nav-link">Kalender</a>
                             </li>
                         </ul>
-                        <GoogleLogin socialId="533538884669-ne2apg4hvqlnnie2au2i42bp83jgo0b8.apps.googleusercontent.com"
+                        {/*<GoogleLogin socialId="533538884669-ne2apg4hvqlnnie2au2i42bp83jgo0b8.apps.googleusercontent.com"
                                      className="btn btn-outline-success"
                                      scope="profile"
                                      responseHandler={this.responseGoogle}
-                                     buttonText="Login With Google"/>
-                        <button className="btn btn-outline-success" id="logout-btn">Logout</button>
+                                     buttonText="Login With Google"/>*/}
+                        <button className="btn btn-outline-success" id="login-btn">Login</button>
+                        <button className="btn btn-secondary" id="logout-btn" disabled>Logout</button>
                     </div>
                 </nav>
             </div>

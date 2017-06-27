@@ -1,0 +1,13 @@
+.headline{
+    font-size: 100px;
+    color: #48cfae;
+}
+.timebar{
+    font-size: 85px;
+}
+.timebar > div {
+    padding: 10px 60px;
+    border-radius: 15px;
+    background-color: #5cb85c;
+    color: white;
+}
