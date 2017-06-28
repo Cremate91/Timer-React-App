@@ -6,8 +6,30 @@
     font-size: 85px;
 }
 .timebar > div {
-    padding: 10px 60px;
     border-radius: 15px;
-    background-color: #5cb85c;
     color: white;
 }
+.timebar span {
+    display: block;
+    overflow: hidden;
+    background-color: #5cb85c;
+    padding: 0 50px;
+}
+.timebar .time.top {
+    border-top: 2px solid #48cfae;
+    border-bottom: 1px solid #48cfae;
+    border-radius: 5px 5px 0 0;
+    height: 50%;
+    line-height: 1.4;
+    
+}
+.timebar .time.bottem {
+    border-top: 1px solid #48cfae;
+    border-bottom: 2px solid #48cfae;
+    border-radius: 0 0 5px 5px;
+    line-height: 0;
+    height: 50%;
+    top: 50%;
+    
+}
+
