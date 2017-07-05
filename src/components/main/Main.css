@@ -2,34 +2,37 @@
     font-size: 100px;
     color: #48cfae;
 }
+.main{
+    font-size: 16px;
+}
+
 .timebar{
-    font-size: 85px;
+    font-size: 10em;
 }
 .timebar > div {
-    border-radius: 15px;
     color: white;
 }
-.timebar span {
+.timebar .timebar-wrapper {
     display: block;
     overflow: hidden;
     background-color: #5cb85c;
-    padding: 0 50px;
-}
-.timebar .time.top {
-    border-top: 2px solid #48cfae;
-    border-bottom: 1px solid #48cfae;
     border-radius: 5px 5px 0 0;
-    height: 50%;
-    line-height: 1.4;
+    line-height: 1;
+    height: 30%;
+    box-shadow: 5px 5px #48cfae;
     
 }
-.timebar .time.bottem {
-    border-top: 1px solid #48cfae;
-    border-bottom: 2px solid #48cfae;
-    border-radius: 0 0 5px 5px;
-    line-height: 0;
-    height: 50%;
-    top: 50%;
-    
+.time.top {
+    position: relative;
+    top: 15%;
+}
+.timebar .time.bottom {
+    position: relative;
+    bottom: 85%;
 }
 
+@media (max-width: 40em){
+    .main{
+        font-size: .4em;
+    }
+}
