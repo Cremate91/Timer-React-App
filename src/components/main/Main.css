@@ -1,38 +1,26 @@
-.headline{
-    font-size: 100px;
-    color: #48cfae;
-}
 .main{
     font-size: 16px;
 }
-
+.headline{
+    font-size: 12em;
+    color: #48cfae;
+}
 .timebar{
-    font-size: 10em;
+    font-size: 7em;
 }
 .timebar > div {
     color: white;
 }
-.timebar .timebar-wrapper {
-    display: block;
-    overflow: hidden;
+.timebar .time-wrapper {
     background-color: #5cb85c;
     border-radius: 5px 5px 0 0;
-    line-height: 1;
-    height: 30%;
     box-shadow: 5px 5px #48cfae;
-    
-}
-.time.top {
-    position: relative;
-    top: 15%;
-}
-.timebar .time.bottom {
-    position: relative;
-    bottom: 85%;
+    margin-left: 6%;
+    line-height: 1em;
 }
 
 @media (max-width: 40em){
     .main{
-        font-size: .4em;
+        font-size: 8px;
     }
 }

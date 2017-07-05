@@ -30,52 +30,21 @@ class Main extends Component{
                 <div className="row">
                     <div className="col-12">
                         <h2 className="headline text-center">{this.props.title}</h2>
-                        <div className="row timebar text-center center">
-                            <div className="col-4">
-                                <span className="timebar-wrapper">
-                                    <span className="time top">
-                                        {this.state.date.getHours()}
-                                    </span>
-                                </span>
-                                <span className="timebar-wrapper">
-                                    <span className="time bottom">
-                                        {this.state.date.getHours()}
-                                    </span>
+                        <div className="row timebar">
+                            <div className="col-3 time-wrapper text-center">
+                                <span className="time">
+                                  {this.state.date.getHours()}    
                                 </span>
                             </div>
-                            <div className="col-4 minutes">
-                                <span className="timebar-wrapper">
-                                    <span className="time top">
-                                        {this.state.date.getMinutes()}
-                                    </span>
-                                </span>
-                                <span className="timebar-wrapper">
-                                    <span className="time bottom">
-                                        {this.state.date.getMinutes()}
-                                    </span>
+                            <div className="col-3 time-wrapper text-center">
+                                <span className="time">
+                                    {this.state.date.getMinutes()}
                                 </span>
                             </div>
-                            <div className="col-4 seounds">
-                               <span className="timebar-wrapper">
-                                    <span className="time cur top">
-                                        {this.state.date.getSeconds()}
-                                    </span>
+                            <div className="col-3 time-wrapper text-center">
+                                <span className="time">
+                                    {this.state.date.getSeconds()}
                                 </span>
-                                <span className="timebar-wrapper">
-                                    <span className="time next bottom">
-                                        {this.state.date.getSeconds()}
-                                    </span>
-                                </span>
-                                {/*<span className="timebar-wrapper">
-                                    <span className="time cur top">
-                                        {this.state.date.getSeconds()}
-                                    </span>
-                                </span>
-                                <span className="timebar-wrapper">
-                                    <span className="time next bottom">
-                                        {this.state.date.getSeconds()}
-                                    </span>
-                                </span>*/}
                             </div>
                             {/*<div className="col-md-3 hour">{this.state.date.getHours()}</div>
                             <div className="col-md-3 offset-md-1 minutes">{this.state.date.getMinutes()}</div>
