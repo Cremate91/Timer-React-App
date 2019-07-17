@@ -4,12 +4,12 @@ Simple Clock with React
 
 ## Install dependencies
 
-### `npm install`
+#### `npm install`
 or 
-### `yarn`
+#### `yarn`
 
 ## Start Timer
 
-### `npm run start`
+#### `npm run start`
 or
-### `yarn start`
+#### `yarn start`
